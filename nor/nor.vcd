@@ -1,0 +1,119 @@
+$date
+	Mon Jun 24 21:53:24 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 1 ! w_out $end
+$var reg 1 " input_1 $end
+$var reg 1 # input_2 $end
+$var reg 1 $ out $end
+$scope module n1 $end
+$var wire 1 " input_1 $end
+$var wire 1 # input_2 $end
+$var wire 1 % intermediary $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1%
+0$
+0#
+0"
+1!
+$end
+#5
+0!
+z%
+1"
+#10
+1%
+0"
+1#
+#15
+z%
+1"
+#20
+1$
+1!
+0#
+1%
+0"
+#25
+0$
+0!
+z%
+1"
+#30
+1%
+0"
+1#
+#35
+z%
+1"
+#40
+1$
+1!
+0#
+1%
+0"
+#45
+0$
+0!
+z%
+1"
+#50
+1%
+0"
+1#
+#55
+z%
+1"
+#60
+1$
+1!
+0#
+1%
+0"
+#65
+0$
+0!
+z%
+1"
+#70
+1%
+0"
+1#
+#75
+z%
+1"
+#80
+1$
+1!
+0#
+1%
+0"
+#85
+0$
+0!
+z%
+1"
+#90
+1%
+0"
+1#
+#95
+z%
+1"
+#100
+1$
+1!
+0#
+1%
+0"

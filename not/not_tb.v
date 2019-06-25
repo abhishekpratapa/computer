@@ -1,5 +1,4 @@
 module test;
-	reg value = 0;
 	initial begin
 		# 100 $finish;
 	end
