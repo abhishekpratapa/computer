@@ -1,8 +1,8 @@
-# Xnor Gate
+# Xor Gate
 
-This folder contains an implementation of a nor gate using `nmos` and `pmos` transistors.
+This folder contains an implementation of a xor gate using `nmos` and `pmos` transistors.
 
-The `xnor.v` folder contains the module, wheras the `xnor_tb.v` contains the test bench to test the module.
+The `xor.v` folder contains the module, wheras the `xor_tb.v` contains the test bench to test the module.
 
 
 ## Truth Tables
@@ -11,33 +11,33 @@ Here is the truth table for the gate. Given the input, the output is as expected
 
 Input 1 | Input 2 | Output 
 ------- | ------- | ------
-   0    |    0    |   1
-   1    |    0    |   0
-   0    |    1    |   0
-   1    |    1    |   1
+   0    |    0    |   0
+   1    |    0    |   1
+   0    |    1    |   1
+   1    |    1    |   0
 
 ## Schematic
 
-The KiCad schematic is contained in `xnor/xnor.sch`
+The KiCad schematic is contained in `xor/xor.sch`
 
 The circuit for this particular gate is shown below:
 
-![Image of Xnor Gate Schematic](https://raw.githubusercontent.com/abhishekpratapa/computer/master/xnor/assets/xnor.png)
+![Image of Xor Gate Schematic](https://raw.githubusercontent.com/abhishekpratapa/computer/master/xnor/assets/xor.png)
 
 ## To Build
 
 ```
-iverilog -o xnor_compiled xnor.v xnor_tb.v 
+iverilog -o xor_compiled xor.v xor_tb.v 
 ```
 
 ## To run in the terminal
 
 ```
-vvp xnor_compiled
+vvp xor_compiled
 ```
 
 ## To run in GTKWave
 
 ```
-gtkwave xnor.vcd
+gtkwave xor.vcd
 ```
