@@ -20,4 +20,4 @@ Note: The gates files also have KiCad schematics for looking at the transistor l
 - [x] xnor gate
 - [x] xor gate
 - [ ] and gate
-- [ ] nand gate
+- [x] nand gate
