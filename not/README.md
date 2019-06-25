@@ -25,13 +25,13 @@ The circuit for this particular gate is shown below:
 ## To Build
 
 ```
-iverilog -o not not.v not_tb.v 
+iverilog -o not_compiled not.v not_tb.v 
 ```
 
 ## To run in the terminal
 
 ```
-vvp not
+vvp not_compiled
 ```
 
 ## To run in GTKWave

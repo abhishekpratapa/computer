@@ -1,7 +1,7 @@
 module test;
 	reg value = 0;
 	initial begin
-		# 100 $stop;
+		# 100 $finish;
 	end
 	
 	reg clk = 0;

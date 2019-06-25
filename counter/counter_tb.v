@@ -6,7 +6,7 @@ module test;
 		# 11 reset = 0;
 		# 29 reset = 1;
 		# 11 reset = 0;
-		# 100 $stop;
+		# 100 $finish;
 	end
 
 	reg clk = 0;

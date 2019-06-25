@@ -1,4 +1,8 @@
 module Nor(input_1, input_2, out);
+	input input_1;
+	input input_2;
+	output out;
+
 	wire input_1;
 	wire input_2;
 	wire out;

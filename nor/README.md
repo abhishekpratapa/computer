@@ -27,13 +27,13 @@ The circuit for this particular gate is shown below:
 ## To Build
 
 ```
-iverilog -o nor nor.v nor_tb.v 
+iverilog -o nor_compiled nor.v nor_tb.v 
 ```
 
 ## To run in the terminal
 
 ```
-vvp nor
+vvp nor_compiled
 ```
 
 ## To run in GTKWave
