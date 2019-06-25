@@ -16,7 +16,7 @@ Here is the truth table for the gate. Given the input, the output is as expected
 
 ## Schematic
 
-The KiCad schematic is contained in /* TODO fill in here */
+The KiCad schematic is contained in `not/not.sch`
 
 The circuit for this particular gate is shown below:
 
