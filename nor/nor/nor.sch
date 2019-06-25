@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:nor-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -115,4 +116,17 @@ Wire Wire Line
 	4700 3950 4700 3800
 Text Label 5650 3900 2    50   ~ 0
 Output
+$Comp
+L power:VCC #PWR?
+U 1 1 5D11AFA7
+P 4700 2750
+F 0 "#PWR?" H 4700 2600 50  0001 C CNN
+F 1 "VCC" H 4717 2923 50  0000 C CNN
+F 2 "" H 4700 2750 50  0001 C CNN
+F 3 "" H 4700 2750 50  0001 C CNN
+	1    4700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2750 4700 2850
 $EndSCHEMATC
