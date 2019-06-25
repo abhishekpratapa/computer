@@ -16,7 +16,7 @@ Note: The gates files also have KiCad schematics for looking at the transistor l
 
 - [x] not gate
 - [x] nor gate
-- [ ] or gate
+- [x] or gate
 - [ ] xor gate
 - [ ] and gate
 - [ ] nand gate
