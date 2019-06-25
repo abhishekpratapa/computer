@@ -18,11 +18,11 @@ Input 1 | Input 2 | Output
 
 ## Schematic
 
-The KiCad schematic is contained in /* TODO fill in here */
+The KiCad schematic is contained in `nor/nor.sch`
 
 The circuit for this particular gate is shown below:
 
-![Image of Not Gate Schematic](https://github.com/abhishekpratapa/computer/nor/assets/nor.png)
+![Image of Nor Gate Schematic](https://raw.githubusercontent.com/abhishekpratapa/computer/master/nor/assets/nor.png)
 
 ## To Build
 
