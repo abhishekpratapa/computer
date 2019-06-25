@@ -1,6 +1,6 @@
 # Xnor Gate
 
-This folder contains an implementation of a nor gate using `nmos` and `pmos` transistors.
+This folder contains an implementation of a xnor gate using `nmos` and `pmos` transistors.
 
 The `xnor.v` folder contains the module, wheras the `xnor_tb.v` contains the test bench to test the module.
 
