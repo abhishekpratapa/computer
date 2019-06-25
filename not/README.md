@@ -20,7 +20,7 @@ The KiCad schematic is contained in `not/not.sch`
 
 The circuit for this particular gate is shown below:
 
-![Image of Not Gate Schematic](https://github.com/abhishekpratapa/computer/tree/master/not/assets/not.png)
+![Image of Not Gate Schematic](https://raw.githubusercontent.com/abhishekpratapa/computer/tree/master/not/assets/not.png)
 
 ## To Build
 
