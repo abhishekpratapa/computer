@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:nor-cache
-LIBS:not-cache
+LIBS:xnor-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -123,39 +122,6 @@ Input_1
 Text Label 5700 3500 2    50   ~ 0
 Input_2
 $Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5D119B2D
-P 7200 4250
-F 0 "Q?" H 7391 4296 50  0000 L CNN
-F 1 "2N3904" H 7391 4205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7400 4175 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7200 4250 50  0001 L CNN
-	1    7200 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3906 Q?
-U 1 1 5D119EC0
-P 7200 3550
-F 0 "Q?" H 7391 3596 50  0000 L CNN
-F 1 "2N3906" H 7391 3505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7400 3475 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 7200 3550 50  0001 L CNN
-	1    7200 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 5D119FE1
-P 7300 3200
-F 0 "#PWR?" H 7300 3050 50  0001 C CNN
-F 1 "VCC" H 7317 3373 50  0000 C CNN
-F 2 "" H 7300 3200 50  0001 C CNN
-F 3 "" H 7300 3200 50  0001 C CNN
-	1    7300 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDS #PWR?
 U 1 1 5D11A04F
 P 7300 4650
@@ -167,28 +133,8 @@ F 3 "" H 7300 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 4650 7300 4450
-Wire Wire Line
-	7300 3200 7300 3350
-Wire Wire Line
-	7550 3900 7300 3900
-Connection ~ 7300 3900
-Wire Wire Line
-	7300 3900 7300 3750
-Wire Wire Line
-	6450 3550 7000 3550
-Wire Wire Line
-	6450 4250 7000 4250
-Wire Wire Line
-	7300 3900 7300 4050
-Text Label 7550 3900 2    50   ~ 0
-Output
-Wire Wire Line
-	6450 3550 6450 3900
-Wire Wire Line
-	5950 3900 6450 3900
+	6250 3900 5950 3900
 Connection ~ 5950 3900
-Connection ~ 6450 3900
-Wire Wire Line
-	6450 3900 6450 4250
+Text Label 6300 3850 2    50   ~ 0
+Output
 $EndSCHEMATC
