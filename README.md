@@ -15,7 +15,7 @@ In this repository I'm going to be designing a computer from scratch using Veril
 Note: The gates files also have KiCad schematics for looking at the transistor level breakdowns, as well as truth tables to help with the understanding of the signals going in and out of the circuit.
 
 - [x] not gate
-- [ ] nor gate
+- [x] nor gate
 - [ ] or gate
 - [ ] xor gate
 - [ ] and gate
