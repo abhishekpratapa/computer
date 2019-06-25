@@ -121,17 +121,6 @@ Text Label 5450 4600 2    50   ~ 0
 Input_1
 Text Label 5700 3500 2    50   ~ 0
 Input_2
-$Comp
-L power:GNDS #PWR?
-U 1 1 5D11A04F
-P 7300 4650
-F 0 "#PWR?" H 7300 4400 50  0001 C CNN
-F 1 "GNDS" H 7305 4477 50  0000 C CNN
-F 2 "" H 7300 4650 50  0001 C CNN
-F 3 "" H 7300 4650 50  0001 C CNN
-	1    7300 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 3900 5950 3900
 Connection ~ 5950 3900

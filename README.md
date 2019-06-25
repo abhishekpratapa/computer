@@ -18,6 +18,6 @@ Note: The gates files also have KiCad schematics for looking at the transistor l
 - [x] nor gate
 - [x] or gate
 - [x] xnor gate
-- [ ] xor gate
+- [x] xor gate
 - [ ] and gate
 - [ ] nand gate
