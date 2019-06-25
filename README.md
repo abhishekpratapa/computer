@@ -44,15 +44,17 @@ Note: The gates files also have KiCad schematics for looking at the transistor l
 - [ ] store
 - [ ] branch (jmpif)
 - [ ] jump
-- [ ] ALU
-	- [ ] add
-	- [ ] subtract
-	- [ ] not
-	- [ ] and
-	- [ ] or
-	- [ ] xor
-	- [ ] bit flip
-	- [ ] left shift
-	- [ ] right shift
 - [ ] No Op
+
+## ALU
+
+- [ ] add
+- [ ] subtract
+- [ ] not
+- [ ] and
+- [ ] or
+- [ ] xor
+- [ ] bit flip
+- [ ] left shift
+- [ ] right shift
 
