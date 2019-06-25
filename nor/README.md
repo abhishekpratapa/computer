@@ -9,12 +9,12 @@ The `nor.v` folder contains the module, wheras the `nor_tb.v` contains the test 
 
 Here is the truth table for the gate. Given the input, the output is as expected.
 
- Input 1 | Input 2 | Output 
- ------- | ------- | ------
-    0    |    0    |   1
-    1    |    0    |   0
-    0    |    1    |   0
-    1    |    0    |   0
+Input 1 | Input 2 | Output 
+------- | ------- | ------
+   0    |    0    |   1
+   1    |    0    |   0
+   0    |    1    |   0
+   1    |    0    |   0
 
 ## Schematic
 
