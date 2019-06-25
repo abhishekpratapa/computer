@@ -23,6 +23,6 @@ Note: The gates files also have KiCad schematics for looking at the transistor l
 - [x] nand gate
 
 
-# Flip Flops and Latches
+## Flip Flops and Latches
 
 // TODO
