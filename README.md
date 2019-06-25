@@ -19,5 +19,10 @@ Note: The gates files also have KiCad schematics for looking at the transistor l
 - [x] or gate
 - [x] xnor gate
 - [x] xor gate
-- [ ] and gate
+- [x] and gate
 - [x] nand gate
+
+
+# Flip Flops and Latches
+
+// TODO
