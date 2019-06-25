@@ -1,8 +1,8 @@
-# Nor Gate
+# Xnor Gate
 
 This folder contains an implementation of a nor gate using `nmos` and `pmos` transistors.
 
-The `nor.v` folder contains the module, wheras the `nor_tb.v` contains the test bench to test the module.
+The `xnor.v` folder contains the module, wheras the `xnor_tb.v` contains the test bench to test the module.
 
 
 ## Truth Tables
@@ -14,30 +14,30 @@ Input 1 | Input 2 | Output
    0    |    0    |   1
    1    |    0    |   0
    0    |    1    |   0
-   1    |    1    |   0
+   1    |    1    |   1
 
 ## Schematic
 
-The KiCad schematic is contained in `nor/nor.sch`
+The KiCad schematic is contained in `xnor/xnor.sch`
 
 The circuit for this particular gate is shown below:
 
-![Image of Nor Gate Schematic](https://raw.githubusercontent.com/abhishekpratapa/computer/master/nor/assets/nor.png)
+![Image of Xnor Gate Schematic](https://raw.githubusercontent.com/abhishekpratapa/computer/master/xnor/assets/xnor.png)
 
 ## To Build
 
 ```
-iverilog -o nor_compiled nor.v nor_tb.v 
+iverilog -o xnor_compiled xnor.v xnor_tb.v 
 ```
 
 ## To run in the terminal
 
 ```
-vvp nor_compiled
+vvp xnor_compiled
 ```
 
 ## To run in GTKWave
 
 ```
-gtkwave nor.vcd
+gtkwave xnor.vcd
 ```
