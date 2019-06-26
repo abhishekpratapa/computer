@@ -24,9 +24,9 @@ Note: The gates files also have KiCad schematics for looking at the transistor l
 
 ## Latches and gated Latches
 
-- [X] SR Latch
-- [ ] Gated SR Latch
-- [ ] Gated D Latch
+- [ ] SR Latch (Finished verilog, just need schematic and README.md updated)
+- [ ] Gated SR Latch (Finished verilog, just need schematic and README.md updated)
+- [ ] Gated D Latch (Finished verilog, just need schematic and README.md updated)
 
 ## Register
 
