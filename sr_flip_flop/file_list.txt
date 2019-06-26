@@ -1,0 +1,3 @@
+sr_latch.v
+sr_latch_tb.v
+../nand/nand.v
