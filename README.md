@@ -22,11 +22,11 @@ Note: The gates files also have KiCad schematics for looking at the transistor l
 - [x] nand gate
 
 
-## Flip Flops and Latches
+## Latches and gated Latches
 
-- [ ] SR Flip-Flop
-- [ ] JK Flip-Flop
-- [ ] D Latch
+- [X] SR Latch
+- [ ] Gated SR Latch
+- [ ] Gated D Latch
 
 ## Register
 
